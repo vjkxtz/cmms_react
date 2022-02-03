@@ -1,0 +1,6 @@
+[submodule "cmms_frontend"]
+	path = cmms_frontend
+	url = https://github.com/vjkxtz/django_react_frontend.git
+[submodule "cmms_frontend_1"]
+	path = cmms_frontend_1
+	url = https://github.com/vjkxtz/django_react_frontend.git
