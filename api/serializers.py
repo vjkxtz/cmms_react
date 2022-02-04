@@ -14,6 +14,10 @@ class LineSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class LineDataSerializer(serializers.ModelSerializer):
+    part = serializers.StringRelatedField()
+    line = serializers.StringRelatedField()
+    sub_assembly = serializers.StringRelatedField()
+    spare = serializers.StringRelatedField()
     class Meta:
         model = LineData
         fields = '__all__'
